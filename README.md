@@ -1,4 +1,4 @@
-# RUST_clone_cgroup - playing with Clone, Fork and Linux processes termination in Rust
+# RUST_clone_cgroup - playing with Clone, Fork, Linux processes termination and Cgroup in Rust
 
 The project covers the following scenarios:
 
