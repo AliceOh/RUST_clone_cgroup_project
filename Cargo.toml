@@ -1,0 +1,27 @@
+[package]
+name = "RUST_clone"
+version = "0.1.0"
+authors = ["Alice Ou <ouhanyan@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.18.0"
+
+[[bin]]
+name = "clone_waitpid"
+path = "src/clone_waitpid.rs"
+
+[[bin]]
+name = "fork_waitpid"
+path = "src/fork_waitpid.rs"
+
+[[bin]]
+name = "clone_waitpid_cgroup_memory"
+path = "src/clone_waitpid_cgroup_memory.rs"
+
+[[bin]]
+name = "clone_waitpid_cgroup_memory_fail"
+path = "src/clone_waitpid_cgroup_memory_fail.rs"
+
